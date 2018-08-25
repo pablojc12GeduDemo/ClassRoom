@@ -1,0 +1,47 @@
+ [
+    {
+      aliases {}, 
+      teachers [
+          {
+              profile {
+                  photoUrl, 
+                  emailAddress, 
+                  permissions [
+                      {
+                          permission
+                      }, ...
+                  ], 
+                  name {
+                      givenName, 
+                      familyName, 
+                      fullName
+                  }, 
+                  id, 
+                  verifiedTeacher
+              }, 
+              courseId, 
+              userId
+          }, ...
+      ],
+      students [
+          {
+              profile {
+                    photoUrl, 
+                    emailAddress, 
+                    name {
+                        givenName, 
+                        familyName, 
+                        fullName
+                    }, 
+                    id
+              }, 
+              courseId, 
+              userId
+          }, ...
+      ], 
+      id, 
+      url,
+      name, 
+      description
+    }, ...
+]
